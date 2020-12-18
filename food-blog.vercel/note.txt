@@ -1,0 +1,41 @@
+https://food-blog.vercel.app/
+
+static-shop (folder gốc của bạn)
+|__ images (folder này mình cho trong file zip)
+|
+|__ styles (chứa css)
+|  |__ main.css (chứa global styles, reset css)
+|  |__ header.css (chứa styles cho phần header)
+|  |__ footer.css (chứa styles cho phần footer)
+|  |__ home.css (chứa styles cho trang Home, tương tự cho các trang khác, mỗi trang một file)
+|  |__ about.css 
+|  |__ recipe-list.css
+|  |__ recipe-detail.css
+|  |__ contact.css
+|
+|__ js
+|  |__ main.js (để làm một số cái đơn giản, làm sự kiện menu click trên mobile, scroll to top, ...)
+|
+|__ index.html (trang Home)
+|__ about.html (trang About)
+|__ contact.html (trang Contact)
+|__ recipe-list.html (trang Listing)
+|__ recipe-detail.html (trang Detail)
+
+
+Các kĩ thuật nên áp dụng:
+- Học cách phân tích cây HTML
+- Đặt tên class theo quy tắc BEM. 
+- Bố trí thứ tự CSS theo nhóm chức năng (có 5 nhóm) 
+- Học cách làm responsive theo hướng mobile first. 
+- Làm transitions với AOS
+- Gắn SEO meta tags, tham khảo thêm Google Structured Data để show những cái rich data trên Google Search.
+- Take time để làm từng phần, từng trang, không vội, chú ý tới các chi tiết nhỏ như khoảng trắng, border, font size, ...
+
+Deployment
+- Sau khi hoàn thành, hãy đẩy code lên Github. 
+- Bật auto deploy với Vercel hen. 
+
+Một số link tham khảo
+- https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/
+- https://www.youtube.com/playlist?list=PLeS7aZkL6GOvMfgbpYA75pUC7_m60epRd
