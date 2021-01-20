@@ -1,11 +1,10 @@
 import React from 'react'
-import './App.css';
-import DemoJSX from "./features/Demo/index"
+import AlbumFeature from './features/Album';
 
 function App() {
   return (
     <div className="App">
-      <DemoJSX />
+      <AlbumFeature/>
     </div>
   );
 }
