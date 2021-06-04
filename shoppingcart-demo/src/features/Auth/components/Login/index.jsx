@@ -18,7 +18,6 @@ function Login(props) {
     try {
       const action = login(data);
       const resultAction = await dispatch(action);
-      const user = unwrapResult(resultAction);
       // Close dialog
       const { closeDialog } = props;
       if (closeDialog) {

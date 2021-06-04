@@ -92,6 +92,9 @@ export default function Header() {
           <Link to="/albums" className={classes.link}>
             <Button color="inherit">Albums</Button>
           </Link>
+          <Link to="/counter" className={classes.link}>
+            <Button color="inherit">Counter</Button>
+          </Link>
           {!isLoggedIn && (
             <Button color="inherit" onClick={handleClickOpen}>
               Login
