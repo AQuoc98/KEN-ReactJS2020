@@ -1,0 +1,12 @@
+@import "../../../../stylesheets/color.scss";
+@import "../../../../stylesheets/responsive.scss";
+@import "../../../../stylesheets/common.scss";
+
+.rc-test-managements-question-library {
+  margin: 2rem 10% ;
+  position: relative;
+  &-sub-nav{
+    display: flex;
+  }
+  
+}

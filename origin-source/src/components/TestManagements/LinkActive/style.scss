@@ -1,0 +1,26 @@
+@import "../../../stylesheets/color.scss";
+@import "../../../stylesheets/responsive.scss";
+@import "../../../stylesheets/common.scss";
+
+.rc-nav-subitem {
+  list-style-type: none;
+  padding: 0 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  position: relative;
+  color: #646464;
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  line-height: 1rem;
+  &:hover {
+    color: #000;
+  }
+  &-active {
+    border-bottom: 2px solid red;
+  }
+}
+
+

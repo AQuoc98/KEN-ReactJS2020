@@ -1,0 +1,52 @@
+@import "../../../stylesheets/color.scss";
+@import "../../../stylesheets/responsive.scss";
+@import "../../../stylesheets/common.scss";
+.rc-paper-drawer-preview-quiz {
+  width: 100vw;
+ height: 100vh;
+ background-color: white;
+ 
+ &-item{
+  border:1px solid #C7C7C7;
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  &-title{
+     padding: 1rem;
+     background-color:#F2F2F2;
+     margin: 0 !important;
+     border-bottom:1px solid #C7C7C7; ;
+  }
+}
+ &-overflow {
+  width: 100%;
+  height: 100%;
+  max-height: calc(100% - 120px);
+  box-sizing: border-box;
+
+  &-main {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2rem;
+    border-top: 0.2px solid rgba(128, 128, 128, 0.295);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+      width: 0.2rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgb(169, 169, 169);
+      outline: 1px solid slategrey;
+      border-radius: 5px;
+    }
+  }
+}
+}
+

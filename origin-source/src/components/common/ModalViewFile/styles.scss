@@ -1,0 +1,33 @@
+@import "../../../stylesheets/color.scss";
+@import "../../../stylesheets/responsive.scss";
+@import "../../../stylesheets/common.scss";
+.rc-modal-view-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &-main {
+    width: 80%;
+    outline: none;
+    padding: 2rem;
+    height: 80%;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+     
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+     
+    &::-webkit-scrollbar-thumb {
+      background-color: rgb(169, 169, 169);
+      outline: 1px solid slategrey;
+    }
+   img{
+      width: 100%;
+   }
+    
+  }
+}
+

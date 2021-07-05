@@ -1,0 +1,125 @@
+@import "../../../stylesheets/responsive.scss";
+
+.rc_footer {
+  margin: 0;
+  padding: 0;
+  a{
+    text-decoration: none;
+  }
+}
+.footer-contact {
+  padding: 2rem 10%;
+  background-color: #f8f9fa;
+  font-family: "Roboto-Regular";
+  border-top:0.1rem solid #c9c5c5;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 2rem !important;
+    color: #005fa1 !important;
+    font-family: "Roboto-Bold";
+    font-size: 1.5rem;
+
+  }
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 0.1rem solid rgba(34, 34, 34, 0.125);
+    border-radius: 10rem;
+    padding: 1.5rem;
+    background-color: #fff;
+
+    .icon {
+      width: 2rem;
+    }
+
+    a {
+      color: #212529;
+      font-size: 1.2rem;
+
+      &:hover {
+        text-decoration: underline;
+        color: #005fa1;
+      }
+    }
+  }
+  // ant
+  .ant-row {
+    margin: 0rem !important;
+  }
+}
+.footer-start {
+  padding: 3rem 10%;
+  color: #4c4c4c;
+  border-top: 0.1rem solid #c9c5c5;
+  margin: 0 !important;
+  a {
+    color: #4c4c4c;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #005fa1;
+  }
+  h3 {
+    color: #005fa1 !important;
+    font-size: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-family: "Roboto-Bold";
+  }
+  h5 {
+    color: #4c4c4c !important;
+    font-size: 1rem !important;
+    font-family: "Roboto-Bold";
+  }
+  p{
+    font-size: 1rem
+  };
+}
+
+.footer-logo {
+    text-align: center;
+    border-top: 0.1rem solid #c9c5c5;
+    padding: 1.5rem 10%;
+    margin: 0 !important;
+    @include Responsive(XS) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      height: 6rem;
+      width: 6rem;
+    }
+
+    span {
+      font-size: 1rem;
+      @include Responsive(SM) {
+        margin-left: 0 !important;
+        margin-top: 2rem;
+      }
+    }
+  
+}
+.contact {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid rgba(34, 34, 34, 0.125);
+}
+
+.dark-mode {
+  .rc_footer {
+  }
+}
+.light-mode {
+  .rc_footer {
+  }
+}
+@media only screen and (max-width: 50rem) {
+  .footer-start .menu-list {
+    flex-direction: column;
+  }
+}

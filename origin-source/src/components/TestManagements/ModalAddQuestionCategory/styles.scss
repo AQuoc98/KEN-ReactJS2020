@@ -1,0 +1,14 @@
+@import "../../../stylesheets/color.scss";
+@import "../../../stylesheets/responsive.scss";
+@import "../../../stylesheets/common.scss";
+.rc-modal-paper-add-category {
+  width: 500px;
+  max-height:80vh;
+  @include Responsive(SM) {
+    width: 80%;
+  }
+  
+}
+.rc-modal-add-category {
+ 
+}

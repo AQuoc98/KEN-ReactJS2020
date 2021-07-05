@@ -1,0 +1,93 @@
+@import "../../stylesheets/color.scss";
+@import "../../stylesheets/responsive.scss";
+@import "../../stylesheets/common.scss";
+
+.rc-users {
+  margin: 4rem 10% 2rem 10%;
+  position: relative;
+  // border-top: 1px solid gray;
+  padding-top: 4rem;
+  .rc-users-history {
+    margin-top: 2rem;
+    .status-success {
+      color: #41b60b;
+    }
+
+    .status-cancel {
+      color: red;
+    }
+    .status-pending {
+      color: rgb(255, 196, 0);
+    }
+  }
+  .rc-fab-add {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .rc-users-list {
+    margin-bottom: 2rem;
+  }
+  .rc-users-item {
+    padding: 1rem 1rem;
+    &-col {
+      color: #888787;
+      position: relative;
+      @include Responsive(XS) {
+        margin: 1rem 0;
+      }
+      a {
+        color: #888787;
+        font-size: 0.9rem;
+      }
+    
+      &-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background: #c4c4c4;
+        overflow: hidden;
+        margin-right: 1rem;
+      }
+      &-control-group{
+        display: flex;
+        align-items: center;
+      }
+      &-control {
+        position: absolute;
+        width: 0px;
+        display: flex;
+        right: 0px;
+        z-index: 999;
+        // background-color: gray;
+        transition: width 0.5s;
+        overflow:hidden;
+        &-item{
+           margin: 0.5rem;
+        }
+
+      }
+      &:hover {
+        .rc-users-item-col-control {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+.popover_select_role {
+  &-main {
+    width: 300px !important;
+    &-item {
+      cursor: pointer;
+      // margin: 1rem;
+    padding: 1rem 1rem;
+
+     &:hover{
+       background-color: rgba(128, 128, 128, 0.344);
+     }
+    }
+  }
+}

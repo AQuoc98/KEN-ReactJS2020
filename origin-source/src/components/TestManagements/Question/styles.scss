@@ -1,0 +1,29 @@
+@import "../../../stylesheets/color.scss";
+@import "../../../stylesheets/responsive.scss";
+@import "../../../stylesheets/common.scss";
+.rc-paper-question {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  .rc-question-select {
+    width: 100%;
+  }
+
+  .rc-question-title {
+    width: 100%;
+
+    margin-bottom: 1rem;
+  }
+  .rc-sortable{
+    width: 100%;
+
+  .sortable-ghost{
+    background-color: rgba(37, 155, 234, 0.46);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+  }
+}
+.rc-question-menu-item {
+  padding: 1rem !important;
+}

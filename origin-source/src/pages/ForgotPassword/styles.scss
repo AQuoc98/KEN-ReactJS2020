@@ -1,0 +1,20 @@
+@import "../../stylesheets/color.scss";
+@import "../../stylesheets/responsive.scss";
+@import "../../stylesheets/common.scss";
+
+.rc-forgot-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  &-paper{
+    padding: 2rem;
+    min-width: 400px;
+    .form-forgot-password-text-field{
+       margin: 1rem 0;
+       width: 100%;
+    }
+  }
+}
+

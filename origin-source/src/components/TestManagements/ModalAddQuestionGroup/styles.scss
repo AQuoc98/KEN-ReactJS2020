@@ -1,0 +1,21 @@
+@import "../../../stylesheets/color.scss";
+@import "../../../stylesheets/responsive.scss";
+@import "../../../stylesheets/common.scss";
+.rc-modal-paper-add-question-group {
+  width: 500px;
+  max-height:80vh;
+  @include Responsive(SM) {
+    width: 80%;
+  }
+}
+.rc-modal-add-question-group {
+ &-main{
+   &-form-item{
+     margin: 1rem 0 !important;
+     &-text_field{
+       width: 100%;
+       margin-bottom: 1rem !important;
+     }
+   }
+ }
+}
