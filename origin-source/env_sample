@@ -1,8 +1,0 @@
-REACT_APP_BASE_URL=
-REACT_APP_NODE_ENV=development
-REACT_APP_MEDIA_URL=http://media.9code.vn/
-REACT_APP_GATEWAY_URL=http://quiz-gateway.9code.vn/
-REACT_APP_IDENTITY_URL=http://identity.9code.vn/
-REACT_APP_CORE_SERVICE_URL=http://api.9code.vn/api/core/
-REACT_APP_QUIZ_SERVICE_URL=http://quiz-service.9code.vn/
-REACT_APP_RECAPTCHA_TOKEN=6Lf1CJ0aAAAAADw6bPvTAoSYM5krXdzUNvkYbQCt

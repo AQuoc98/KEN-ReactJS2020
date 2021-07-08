@@ -1,5 +1,0 @@
-export default {
-  MEDIA_START: "MEDIA_START",
-  MEDIA_SUCCESS: "MEDIA_SUCCESS",
-  MEDIA_FAIL: "MEDIA_FAIL",
-};
